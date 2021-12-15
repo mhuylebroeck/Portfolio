@@ -1,6 +1,7 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #021204;
+
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -12,5 +13,18 @@
 }
 
 .navbar-expand-sm {
-  justify-content: space-between;
+  justify-content: space-between !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:white !important;
+  font-family: 'montserrat';
+  font-size: 16px;
+  padding-top: 20px;
+
+}
+
+.navbar {
+  padding-right: 200px !important;
+  height: 80px;
 }
