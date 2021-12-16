@@ -1,15 +1,16 @@
 .banner {
   background-size: cover;
   background-position: center;
-  background-color: #021204;
+  background-color: #000204; //#021204;
 }
 
 .banner h1 {
   margin: 0;
-  color: white;
+  color: #0fff93;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 42px;
+  font-size: 52px;
   font-weight: bold;
+  font-family: 'montserrat';
 }
 
 .banner p {
@@ -20,17 +21,13 @@
 }
 
 .banner h3 {
-  color: #0fff93;
+  color: white;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
 
-
-  img {
-  height: 400px;
-  }
 }
 
 .banner-text {
@@ -40,6 +37,7 @@
   padding-right: 30px;
   padding: 150px 350px 150px 100px;
   border-radius: 30px;
+  height: 650px;
 }
 
 .btn {

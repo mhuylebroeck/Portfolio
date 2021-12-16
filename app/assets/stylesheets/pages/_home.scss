@@ -1,4 +1,64 @@
 body {
-font-family: 'montserrat' !important;
-background-color: #021204
+font-family: 'DM Sans', sans-serif !important;
+background-color: #000204; //#021204
+}
+
+.about-me-container {
+ background-color: #000204; //#021204
+ padding-left: 163px;
+ padding-right: 163px;
+ padding-top: 150px;
+ color: whitesmoke;
+
+  li {
+     display: inline-block;
+     list-style: none;
+   }
+
+ }
+
+.cards-about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center
+}
+
+.card-experience {
+  height: 400px;
+  width: 330px;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(3, 236, 42, 0.2);
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
+  transition: 0.5s;
+  background: #0fff93;
+
+    &:hover {
+      background-color: white;
+      box-shadow:  0 0 15px rgba(241, 241, 241, 0.2);
+      transform: translate(10px, -10px);
+      text-decoration: none;
+  }
+}
+
+.task-icon-home {
+  height: 80px;
+  width: 80px;
+}
+
+.task-name-card {
+  color: #000204;
+}
+.card-body {
+
+  p {
+    font-size: 16px;
+    color: #000204;
+    text-align: left;
+    padding-top: 15px;
+  }
 }

@@ -1,6 +1,9 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: #021204;
+  background:  #000204; //#021204
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 
 }
 
@@ -9,7 +12,7 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 140px;
 }
 
 .navbar-expand-sm {
@@ -26,5 +29,7 @@
 
 .navbar {
   padding-right: 200px !important;
-  height: 80px;
+  padding-left: 160px !important;
+
+  height: 90px;
 }
