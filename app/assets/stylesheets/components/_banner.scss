@@ -1,8 +1,17 @@
 .banner {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1521706862577-47b053587f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80");
   background-size: cover;
   background-position: center;
-  background-color: #000204; //#021204;
+  background-color: #000204;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-radius: 30px;
 }
+
+.main-container {
+  background-color: #000610;
+}
+
 
 .banner h1 {
   margin: 0;
@@ -14,14 +23,18 @@
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 17px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-bottom: 100px;
 }
 
 .banner h3 {
   color: white;
+  margin-top: 10px;
+  font-size: 35px;
+
 }
 
 .container {
@@ -31,17 +44,58 @@
 }
 
 .banner-text {
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1521706862577-47b053587f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80");
   background-position: center;
   background-size: cover;
   padding-right: 30px;
-  padding: 150px 350px 150px 100px;
-  border-radius: 30px;
-  height: 650px;
+  padding: 150px 440px 150px 100px;
+  height: 680px;
+
 }
 
-.btn {
-  background-color: #0fff93 !important;
-  color: #000610 !important;
-  border: none !important;
+#btn-banner {
+  background-color: #0fff93;
+  color: #000610;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  font-weight: bold;
+}
+
+
+.btn-2-banner {
+  display: inline-block;
+  padding-bottom:2px;
+  background-image: linear-gradient(#0fff93, #0fff93);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s;
+  color: white;
+  font-size: bold;
+  margin-left: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-2-banner:hover {
+  background-position: 100% 100%;
+  background-size: 100% 2px;
+  color: white;
+  text-decoration: none;
+}
+
+.img-arrow {
+  height: 50px;
+  margin-top: 20px;
+
+}
+
+.img-arrow-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }

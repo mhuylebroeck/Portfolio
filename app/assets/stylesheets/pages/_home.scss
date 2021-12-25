@@ -7,7 +7,7 @@ background-color: #000204; //#021204
  background-color: #000204; //#021204
  padding-left: 163px;
  padding-right: 163px;
- padding-top: 100px;
+ padding-top: 50px;
  color: whitesmoke;
 
   li {
@@ -81,11 +81,19 @@ background-color: #000204; //#021204
 }
 
 .contact-container {
- background-color: #000204; //#021204
+ background-color: #011427; //#021204
  padding-left: 163px;
  padding-right: 163px;
  color: whitesmoke;
   h1 {
   margin-bottom: 0;
  }
+}
+
+.about-me {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  padding: 40px;
 }

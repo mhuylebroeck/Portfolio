@@ -1,4 +1,5 @@
 .navbar-lewagon {
+  display: flex;
   justify-content: space-between;
   background:  #000204; //#021204
   position: -webkit-sticky;
@@ -21,15 +22,44 @@
 
 .navbar-light .navbar-nav .nav-link {
   color:white !important;
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: 'montserrat';
   font-size: 16px;
-  padding-top: 20px;
-
+  display: inline-block;
+  padding-bottom:2px;
+  background-image: linear-gradient(#0fff93, #0fff93);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s;
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-position: 100% 100%;
+  background-size: 100% 2px;
+  color: white;
+  text-decoration: none;
+}
+
 
 .navbar {
-  padding-right: 200px !important;
-  padding-left: 160px !important;
-
-  height: 90px;
+  padding-right: 90px !important;
+  padding-left: 90px !important;
+  height: 100px;
+  padding-bottom: 15px !important;
+  padding-top: 20px !important;
 }
+
+ #btn-navbar {
+   background-color: #0fff93;
+   color: #000610;
+   border: none;
+   text-decoration: none;
+   border-radius: 10px;
+   font-weight: bold;
+   padding: 10px 30px 10px 30px;
+   margin-right: 0px;
+ }
