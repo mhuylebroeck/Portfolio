@@ -7,7 +7,7 @@ background-color: #000204; //#021204
  background-color: #000204; //#021204
  padding-left: 163px;
  padding-right: 163px;
- padding-top: 150px;
+ padding-top: 100px;
  color: whitesmoke;
 
   li {
@@ -61,4 +61,31 @@ background-color: #000204; //#021204
     text-align: left;
     padding-top: 15px;
   }
+}
+
+.img-about-me-container {
+  display: flex;
+  border-radius: 10px;
+
+}
+
+.project-container {
+ background-color: #000204; //#021204
+ padding-left: 163px;
+ padding-right: 163px;
+ color: whitesmoke;
+
+ h1 {
+  margin-bottom: 0;
+ }
+}
+
+.contact-container {
+ background-color: #000204; //#021204
+ padding-left: 163px;
+ padding-right: 163px;
+ color: whitesmoke;
+  h1 {
+  margin-bottom: 0;
+ }
 }
