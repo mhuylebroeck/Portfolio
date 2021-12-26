@@ -1,19 +1,25 @@
 body {
-font-family: 'DM Sans', sans-serif !important;
-background-color: #000204; //#021204
+  font-family: 'DM Sans', sans-serif !important;
+  background-color: #000204; //#021204
 }
 
 .about-me-container {
- background-color: #000204; //#021204
- padding-left: 163px;
- padding-right: 163px;
+ background: rgb(0,2,4);
+ background: linear-gradient(180deg, rgba(0,2,4,1) 0%, rgba(0,37,21,1) 44%, rgba(0,37,21,1) 56%, rgba(0,2,4,1) 100%);
+ //background-color: #000204; //#021204
+ padding-left: 90px;
+ padding-right: 90px;
  padding-top: 50px;
  color: whitesmoke;
 
   li {
-     display: inline-block;
-     list-style: none;
+    display: inline-block;
+    list-style: none;
    }
+
+  h1 {
+    font-size: 48px;
+  }
 
  }
 
@@ -25,11 +31,9 @@ background-color: #000204; //#021204
 }
 
 .card-experience {
-  height: 400px;
-  width: 330px;
+  height: relative;
+  width: 90%;
   border-radius: 1px;
-  box-shadow: 0 0 10px rgba(3, 236, 42, 0.2);
-  font-size: 22px;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -39,7 +43,7 @@ background-color: #000204; //#021204
 
     &:hover {
       background-color: white;
-      box-shadow:  0 0 15px rgba(241, 241, 241, 0.2);
+      box-shadow:  0 0 15px rgba(255, 255, 255, 0.603);
       transform: translate(10px, -10px);
       text-decoration: none;
   }
