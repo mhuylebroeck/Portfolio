@@ -3,9 +3,10 @@
   justify-content: space-between;
   background:  #000204; //#021204
   position: -webkit-sticky;
-  position: sticky;
+  position: sticky !important;
   top: 0px;
-
+  z-index: 11;
+  box-shadow: 0 0 15px #000204;
 }
 
 .navbar-lewagon .navbar-collapse {
