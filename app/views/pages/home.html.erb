@@ -63,16 +63,16 @@
            During our time at Le Wagon's 9-week Full Stack Web Development Bootcamp, we had the opportunity to begin developing SilverHelp, a platform dedicated to empowering and supporting seniors with mobility issues by connecting them with our 'Silverhelpers'. <br> <br>
            How does it work? First, the senior or a family member can run a search in their area and select a helper based on their reviews, skills, and proximity. They can then send a request to their chosen helper. Finally, they agree on a time that works best for the Silverhelper to go and assist the senior with whatever they may need!
 </p>
-        <a id="btn-banner" href="#">Check out project</a>
+        <a class="btn-project" href="#">Check out project</a>
       </div>
     </div>
 
     <div class="card-portfolio">
       <div class="portfolio-text-container-right">
-        <h2>Silverhelp</h2>
+        <h2>Leave your sh*t</h2>
         <h6>EVERYDAY LIFE MADE EASY</h6>
         <p>Recently graduated from 10-week full-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails. Recently graduated from 10-week full-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails.</p>
-        <a id="btn-banner" href="#">Check out project</a>
+        <a class="btn-project" href="#">Check out project</a>
       </div>
       <img class="img-portfolio" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
     </div>
@@ -83,7 +83,7 @@
         <h2>Silverhelp</h2>
         <h6>EVERYDAY LIFE MADE EASY</h6>
         <p>Recently graduated from 10-week full-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails. Recently graduated from 10-week full-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails.</p>
-        <a id="btn-banner" href="#">Check out project</a>
+        <a class="btn-project" href="#">Check out project</a>
       </div>
     </div>
   </div>
@@ -91,48 +91,39 @@
   </div>
 
   <div class="contact-container">
-    <h1>Contact</h1>
-    <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputEmail4">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    <h1>Get in touch</h1>
+    <div class="contact-social-container">
+      <div class="contact-text-right">
+        <h5>Please do not hesitate to contact me directly. <br> I will come back to you as soon as possible.</h5>
+        <div class="icon-container">
+          <img class="contact-icon" src="https://i.ibb.co/KFxGGzf/email.png" alt="email">
+          <img class="contact-icon" src="https://i.ibb.co/Fh3P2K5/linkedin-logo.png" alt="linkedin">
+          <img class="contact-icon" src="https://i.ibb.co/HP7vZ68/github.png" alt="github">
         </div>
       </div>
-      <div class="form-group">
-        <label for="inputAddress">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-      </div>
-      <div class="form-group">
-        <label for="inputAddress2">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputCity">City</label>
-          <input type="text" class="form-control" id="inputCity">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+          <label for="inputPassword4">Your name</label>
+          <input type="text" class="form-control" id="inputname4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Your Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
         </div>
-        <div class="form-group col-md-4">
-          <label for="inputState">State</label>
-          <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
+        <div class="form-group">
+          <label for="inputSubject">Subject</label>
+          <input type="text" class="form-control" id="inputSubject">
         </div>
-        <div class="form-group col-md-2">
-          <label for="inputZip">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
+        <div class="form-group">
+          <label for="inputMessage">Your message</label>
+          <textarea type="text" class="form-control" id="inputMessage"></textarea>
         </div>
-      </div>
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Check me out
-          </label>
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Sign in</button>
-    </form>
+
+        <button type="submit" id="btn-banner">Send</button>
+      </form>
+
+    </div>
   </div>
 </div>
